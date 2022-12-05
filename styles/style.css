@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 /* 본문 스타일 */
 body {
   background: #ffc;
@@ -21,10 +23,46 @@ body {
 
 /* 헤더 */
 .header {
-  background: pink;
+  background: #fff;
   padding: 0 30px;
   height: 15vh;
+  border-radius: 0 0 15px 15px;
 }
+
+/* 멤버 */
+.member {
+  background-color: pink;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+/* 가상요소 ::before */
+
+/* .member li::before {
+  content: ":";
+} */
+
+/* .member .first::before {
+  content: "";
+} */
+
+/* .member li:first-child::before {
+  content: "";
+} */
+
+.member li:nth-child(n+2)::before {
+  content: ":";
+  background-color: skyblue;
+}
+.member li:nth-child(n+2):nth-child(-n+4) {
+  background-color: yellow;
+}
+
+
+
+
+
 /* 비주얼 */
 .visual {
   background: orange;
