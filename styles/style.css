@@ -110,6 +110,21 @@ body {
       #e85e2c 70%,
       #ef9126 100%
     );
+    border-top: 2px solid #212121;
+    border-radius: 0 0 5px 5px;
+    display: flow-root;
+    padding-left: 230px;
+}
+
+.menu-item {
+  background-color: aqua;
+  float: left;
+}
+
+.sub-menu {
+  background-color: pink;
+  position: absolute;
+  display: none;
 }
 
 
@@ -159,7 +174,7 @@ body {
 }
 /* 푸터 */
 .footer {
-  linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
+  background:  linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
 }
 .footer-inner {
   height: 15vh;
