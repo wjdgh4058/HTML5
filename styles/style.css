@@ -1,6 +1,14 @@
 @import url(./normalize.css);
 @import url(./reset.css);
 
+/* 숨김 콘텐츠 */
+.a11y-hidden {
+  background-color: yellow;
+  /* display: none; */
+  position: absolute;
+  top:  -9999em;
+}
+
 /* 기본스타일 */
 *, *::before, *::after {
   box-sizing: border-box;
