@@ -48,6 +48,9 @@ body {
   text-align: right;
   padding: 4px 0;
   /* margin-left: 10px; */
+  /* position을 이용해서 .member영역을 오른쪽으로 10px 만큼 이동하기 */
+  position: relative;
+  right: -10px;
 }
 
 .member li {
@@ -63,9 +66,9 @@ body {
 }
 
 /* 마지막 li에 포함된 a요소를 선택하여 오른쪽 패딩 값을 0을오 재정의 */
-.member li:last-child a {
+/* .member li:last-child a {
   padding-right: 0;
-}
+} */
 
 .divider {
   margin-right: 4px;
