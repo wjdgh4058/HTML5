@@ -47,10 +47,12 @@ body {
   background-color: aqua;
   text-align: right;
   padding: 4px 0;
-  /* margin-left: 10px; */
   /* position을 이용해서 .member영역을 오른쪽으로 10px 만큼 이동하기 */
-  position: relative;
-  right: -10px;
+  /* position: relative;
+  right: -10px; */
+  /* margin-left: 10px; */
+  /* transform을 이용해서 .member영역을 오른쪽으로 10px 만큼 이동하기 */
+  transform: translateX(10px);
 }
 
 .member li {
