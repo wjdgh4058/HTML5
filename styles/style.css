@@ -3,10 +3,17 @@
 
 /* 숨김 콘텐츠 */
 .a11y-hidden {
-  background-color: yellow;
   /* display: none; */
   position: absolute;
-  top:  -9999em;
+  /* top:  -9999em; */
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  /* clip: rect(0 0 0 0);  */
+  /* 구형 브라우저에서 적용 가능 */
+  clip-path: polygon(0 0, 0 0, 0 0);
+  /* clip-path: inset(50%); */
+  /* inset으로도 표현 가능 */
 }
 
 /* 기본스타일 */
