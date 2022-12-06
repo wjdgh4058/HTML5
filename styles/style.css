@@ -17,7 +17,9 @@
 }
 
 /* 기본스타일 */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -36,13 +38,20 @@ body {
   /* em, rem 단위 사용해보기 */
   font-size: 1.4rem;
   color: #212121;
-  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
-  ;
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  background: #ccc
+    linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
 /* 레이아웃 */
-.header, .visual, .main, .slogan , .footer-inner {
+.header,
+.visual,
+.main,
+.slogan,
+.footer-inner {
   width: 940px;
   margin: 0 auto;
 }
@@ -61,7 +70,6 @@ body {
   top: 45px;
   left: 60px;
 }
-
 
 /* 텍스트 링크 모음 */
 .member {
@@ -110,11 +118,11 @@ body {
       #e85e2c 70%,
       #ef9126 100%
     );
-    border-top: 2px solid #212121;
-    border-radius: 0 0 5px 5px;
-    /* display: flow-root; */
-    padding-left: 230px;
-    height: 47px;
+  border-top: 2px solid #212121;
+  border-radius: 0 0 5px 5px;
+  /* display: flow-root; */
+  padding-left: 230px;
+  height: 47px;
 }
 
 .menu-item {
@@ -138,7 +146,6 @@ body {
   position: absolute;
   display: none;
 }
-
 
 /* 비주얼 */
 .visual {
@@ -167,16 +174,16 @@ body {
 }
 
 .group1 {
-   background-color: violet;
-   width: 250px;
+  background-color: violet;
+  width: 250px;
 }
 .group2 {
-   background-color: salmon;
-   width: 380px;
+  background-color: salmon;
+  width: 380px;
 }
 .group3 {
-   background-color: gold;
-   width: 190px;
+  background-color: gold;
+  width: 190px;
 }
 
 /* 슬로건 */
@@ -186,7 +193,13 @@ body {
 }
 /* 푸터 */
 .footer {
-  background:  linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
+  background: linear-gradient(
+    to bottom,
+    #ccc 0%,
+    #eee 35%,
+    #fff 70%,
+    #fff 100%
+  );
 }
 .footer-inner {
   height: 15vh;
