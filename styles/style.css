@@ -69,6 +69,7 @@ body {
   position: absolute;
   top: 45px;
   left: 60px;
+  z-index: 10;
 }
 
 /* 텍스트 링크 모음 */
@@ -172,7 +173,7 @@ body {
 }
 
 .menu-accessibility,
-.menu-qua,
+.menu-qna,
 .menu-archive {
   right: 0;
 }
