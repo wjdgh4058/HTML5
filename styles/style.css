@@ -220,25 +220,41 @@ body {
 }
 
 /* 비주얼 */
-
+/* 애니메이션 규칙을 선언해어 준 것 */
 @keyframes moveEffect {
   0% {
     font-size: 12px;
+    color: rgba(0, 0, 0, 0.2);
+    /* padding: 0; */
+    /* top: 0;
+    left: 0; */
+    transform: translate(0, 0);
   }
   100% {
     font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    /* padding: 75px 0 0 400px; */
+    /* top: 75px;
+    left: 400px; */
+    transform: translate(400px, 75px);
   }
 }
 
 .visual {
   background: pink;
   height: 120px;
+  position: relative;
 }
 
 .visual-text {
+  /* position: absolute; */
+  font-family: Georgia, "Times New Roman", Times, serif;
   background-color: coral;
   animation-name: moveEffect;
   animation-duration: 2000ms;
+  /* 애니메이션이 끝난 상태로 채워 놓는다. */
+  animation-fill-mode: forwards;
+  display: inline-block;
 }
 
 /* 메인 */
