@@ -180,7 +180,7 @@ body {
 }
 
 .is-active .sub-menu {
-  display: block;
+  display: inline-block;
   white-space: nowrap;
 }
 
@@ -224,7 +224,7 @@ body {
 @keyframes moveEffect {
   0% {
     font-size: 12px;
-    color: rgba(0, 0, 0, 0.2);
+    color: hsla(0, 0%, 0%, 0);
     /* padding: 0; */
     /* top: 0;
     left: 0; */
@@ -232,7 +232,7 @@ body {
   }
   100% {
     font-size: 24px;
-    color: rgba(0, 0, 0, 1);
+    color: hsla(0, 0%, 0%, 1);
     /* padding: 75px 0 0 400px; */
     /* top: 75px;
     left: 400px; */
@@ -247,14 +247,15 @@ body {
 }
 
 .visual-text {
-  /* position: absolute; */
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: coral;
   animation-name: moveEffect;
   animation-duration: 2000ms;
+  animation-timing-function: ease-in-out;
   /* 애니메이션이 끝난 상태로 채워 놓는다. */
   animation-fill-mode: forwards;
   display: inline-block;
+  /* position: absolute; */
 }
 
 /* 메인 */
