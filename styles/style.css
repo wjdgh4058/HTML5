@@ -355,14 +355,17 @@ body {
   padding: 0 10px 10px 10px;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 
-.user-email {
+.login-form fieldset {
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #aaa;
 }
 
+.user-email,
 .user-pw {
-  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .login-form label {
@@ -374,20 +377,21 @@ body {
   width: 90px;
   height: 24px;
   border: 1px solid #aaa;
+  padding: 1px 1px 1px 5px;
+  border-radius: 3px;
 }
 
 .login-button {
   position: absolute;
   right: 0;
   top: 0;
-  height: 100%;
+  height: 53px;
   background-color: orangered;
   border: 0;
   color: #fff;
-}
-
-.login-form fieldset {
-  position: relative;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 13px;
 }
 
 /* 슬로건 */
