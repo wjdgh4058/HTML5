@@ -281,39 +281,34 @@
         </form>
 
         <div class="board">
-          <ul class="tab-list" role="tablist">
-            <li role="none">
-              <button
-                type="button"
-                class="tab"
-                role="tab"
-                aria-selected="true"
-                aria-controls="notice"
-                id="noticeButton"
-              >
-                공지사항
-              </button>
-            </li>
-            <li role="none">
-              <button
-                type="button"
-                class="tab"
-                role="tab"
-                aria-selected="false"
-                aria-controls="archive"
-                id="archiveButton"
-              >
-                자료실
-              </button>
-            </li>
-          </ul>
-          <section
-            class="notice tab-panel"
+          <div class="tab-list" role="tablist">
+            <button
+              type="button"
+              class="tab is-select"
+              role="tab"
+              aria-selected="true"
+              aria-controls="notice"
+              id="noticeButton"
+            >
+              공지사항
+            </button>
+            <button
+              type="button"
+              class="tab"
+              role="tab"
+              aria-selected="false"
+              aria-controls="archive"
+              id="archiveButton"
+            >
+              자료실
+            </button>
+          </div>
+          <div
+            class="notice tab-panel is-select"
             role="tabpanel"
             id="notice"
             aria-labelledby="noticeButton"
           >
-            <h2 class="a11y-hidden">공지사항</h2>
             <ul class="board-list">
               <li>
                 <a class="icon-stop" href="/"
@@ -349,15 +344,14 @@
               aria-labelledby="noticeButton"
               >더보기</a
             >
-          </section>
+          </div>
 
-          <section
+          <div
             class="archive tab-panel"
             role="tabpanel"
             id="archive"
             aria-labelledby="archiveButton"
           >
-            <h2 class="a11y-hidden">자료실</h2>
             <ul class="board-list">
               <li>
                 <a class="icon-stop" href="/">디자인 사이트 링크 모음</a>
@@ -388,7 +382,7 @@
               aria-labelledby="archiveButton"
               >더보기</a
             >
-          </section>
+          </div>
         </div>
       </div>
       <div class="group group3">그룹3</div>
