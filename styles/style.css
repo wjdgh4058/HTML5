@@ -438,6 +438,50 @@ body {
   vertical-align: middle;
 }
 
+.term {
+  margin-top: 20px;
+  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee);
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.term-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.term-list {
+  margin-top: 10px;
+}
+
+.term-list div {
+  margin-top: 10px;
+  display: flow-root;
+}
+
+.term-list-subject {
+  float: right;
+  background-color: #e85e2c;
+  color: rgb(58, 136, 238);
+  width: 145px;
+}
+
+.term-list-thumbnail {
+  float: left;
+  background-color: purple;
+}
+
+.term-list-thumbnail img {
+  vertical-align: middle;
+}
+
+.term-list-brief {
+  float: right;
+  width: 145px;
+  background-color: coral;
+}
+
 /* 슬로건 */
 .slogan {
   background: skyblue;
