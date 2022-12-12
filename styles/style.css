@@ -502,13 +502,11 @@ body {
 }
 
 .search-form-inner {
-  /* background-color: yellow; */
   display: flex;
   flex-flow: row nowrap;
 }
 
 .form-group {
-  /* background-color: pink; */
   flex-grow: 1;
   display: flex;
   flex-flow: row nowrap;
@@ -516,8 +514,8 @@ body {
   padding-right: 10px;
 }
 .form-group-label {
-  /* background-color: lime; */
-  white-space: nowrap;
+  /* white-space: nowrap; */
+  flex-shrink: 0;
   margin-right: 10px;
 }
 .form-group-input {
@@ -531,7 +529,8 @@ body {
 }
 
 .search-button {
-  white-space: nowrap;
+  /* white-space: nowrap; */
+  flex-shrink: 0;
   background-color: #000;
   color: #fff;
   height: 24px;
