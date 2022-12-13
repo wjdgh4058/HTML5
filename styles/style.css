@@ -677,6 +677,7 @@ body {
   background: #ccc linear-gradient(to bottom, #ccc, #eee);
   border: 1px solid #aaa;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .accent-color {
@@ -686,6 +687,55 @@ body {
 .text-xl {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.event {
+  border-bottom: 1px solid #aaa;
+}
+
+.event-button-wrapper {
+  background-color: yellow;
+  height: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.event-button {
+  width: 19px;
+  height: 18px;
+  border: 0;
+  padding: 18px 0 0 0;
+  background: url(./images/back_forward.png) no-repeat;
+}
+
+.event-button-next {
+  background-position: right;
+}
+
+.event-button:focus {
+  outline-offset: -2px;
+}
+
+.event-thumbnail,
+.event-brief {
+  margin: 10px 0;
+}
+
+.event-brief {
+  line-height: 1.5;
+}
+
+.related {
+  margin-top: 10px;
+}
+
+.related-list {
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 /* 슬로건 */
