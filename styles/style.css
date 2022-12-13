@@ -693,6 +693,10 @@ body {
   border-bottom: 1px solid #aaa;
 }
 
+.event-title {
+  display: inline-block;
+}
+
 .event-button-wrapper {
   background-color: yellow;
   height: 20px;
@@ -701,6 +705,7 @@ body {
   flex-flow: row nowrap;
   align-items: center;
   gap: 5px;
+  float: right;
 }
 
 .event-button {
@@ -724,6 +729,11 @@ body {
   margin: 10px 0;
 }
 
+.event-thumbnail img {
+  border: 1px solid #aaa;
+  box-shadow: 5px 5px 0 0 #ccc;
+}
+
 .event-brief {
   line-height: 1.5;
 }
@@ -734,8 +744,36 @@ body {
 
 .related-list {
   background-color: #fff;
+  border: 1px solid #aaa;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
+  height: 27px;
+  padding: 0;
+  transition-property: height, padding;
+  transition-duration: 400ms;
+  transition-delay: 0ms, 400ms;
+  overflow: hidden;
+}
+
+.related-list li {
+  background-color: yellow;
+  height: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.related-list a {
+  background-color: pink;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.related-list:hover,
+.related-list:focus {
+  height: 147px;
+  padding: 10px 0;
 }
 
 /* 슬로건 */
