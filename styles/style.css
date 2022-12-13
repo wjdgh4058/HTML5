@@ -698,7 +698,6 @@ body {
 }
 
 .event-button-wrapper {
-  background-color: yellow;
   height: 20px;
   overflow: hidden;
   display: flex;
@@ -756,7 +755,6 @@ body {
 }
 
 .related-list li {
-  background-color: yellow;
   height: 25px;
   display: flex;
   flex-flow: row nowrap;
@@ -765,7 +763,6 @@ body {
 }
 
 .related-list a {
-  background-color: pink;
   flex-grow: 1;
   padding: 0 10px;
 }
