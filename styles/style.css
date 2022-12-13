@@ -35,12 +35,6 @@ a {
   text-decoration: none;
 }
 
-/* 그라디언트 스타일 */
-.gradient-effect {
-  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee);
-  border: 1px solid #aaa;
-}
-
 /* 본문 스타일 */
 body {
   /* em, rem 단위 사용해보기 */
@@ -674,6 +668,24 @@ body {
   top: -8px;
   right: -8px;
   padding: 8px 8px 0 0;
+}
+
+/* 신규 이벤트 및 관련 사이트 */
+
+/* 그라디언트 스타일 */
+.gradient-effect {
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.accent-color {
+  color: orangered;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* 슬로건 */
