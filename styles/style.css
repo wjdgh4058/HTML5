@@ -35,6 +35,12 @@ a {
   text-decoration: none;
 }
 
+/* 그라디언트 스타일 */
+.gradient-effect {
+  background: #ccc linear-gradient(to bottom, #ccc 0%, #eee);
+  border: 1px solid #aaa;
+}
+
 /* 본문 스타일 */
 body {
   /* em, rem 단위 사용해보기 */
@@ -639,6 +645,7 @@ body {
 
 .news-item-title {
   font-weight: 500;
+  display: block;
 }
 
 .news-item-date {
@@ -647,13 +654,19 @@ body {
 }
 .news-item-brief {
   line-height: 1.5;
+  display: block;
 }
 
 .news-item-thumbnail {
   position: absolute;
-  top: 2px;
+  top: 3px;
   left: 0;
   text-align: center;
+}
+
+.news-item-thumbnail img {
+  box-shadow: 0 15px 10px 5px #ccc;
+  margin-bottom: 15px;
 }
 
 .news-more {
