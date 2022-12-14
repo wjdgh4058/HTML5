@@ -25,6 +25,32 @@ legend {
   box-sizing: border-box;
 }
 
+/* 마진 */
+
+.margin-top-default {
+  margin-top: 20px;
+}
+
+.margin-top-thin {
+  margin-top: 5px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.margin-top-normal {
+  margin-top: 10px;
+}
+
+.margin-top-large {
+  margin-top: 15px;
+}
+
 html {
   font-size: 10px;
 }
@@ -772,6 +798,8 @@ body {
   height: 147px;
   padding: 10px 0;
 }
+
+/* 인기 사이트 */
 
 /* 슬로건 */
 .slogan {
