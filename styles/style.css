@@ -806,21 +806,18 @@ body {
 }
 
 .favorite-list {
-  background-color: yellow;
   list-style-type: none;
 }
 
 .favorite-list li {
   counter-increment: number;
   margin-top: 10px;
-  background-color: pink;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
 }
 
 .favorite-list a {
-  background-color: aqua;
   /* flex-grow: 1.5; */
 }
 
@@ -844,7 +841,7 @@ body {
   display: inline-block;
   width: 9px;
   height: 11px;
-  background: lime url(./images/rank.png) no-repeat;
+  background: url(./images/rank.png) no-repeat;
   margin-left: auto;
 }
 
