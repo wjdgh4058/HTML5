@@ -909,7 +909,43 @@ body {
     #fff 100%
   );
 }
+
+.footer-logo {
+  width: 150px;
+  padding: 20px 0 0 35px;
+}
+
+.footer-inner-wrapper {
+  flex-grow: 1;
+}
+
 .footer-inner {
-  height: 15vh;
-  background: silver;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.guide-list {
+  background-color: #7b8385;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: #fff;
+  border: 1px solid #7b8385;
+  border-radius: 30px;
+  padding: 4px 45px;
+  text-transform: uppercase;
+}
+
+.guide-list a {
+  display: block;
+  padding: 6px 10px;
+}
+
+.address,
+.copyright {
+  display: block;
+  font-size: 1.3rem;
+  margin-top: 15px;
 }
