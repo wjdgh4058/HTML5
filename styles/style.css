@@ -58,7 +58,6 @@ a {
 
 /* 본문 스타일 */
 body {
-  /* em, rem 단위 사용해보기 */
   font-size: 1.4rem;
   color: #212121;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
